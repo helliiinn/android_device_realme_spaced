@@ -477,6 +477,8 @@ PRODUCT_PACKAGES += \
     vndservicemanager
 
 # Vibrator
+$(call soong_config_set,mediatek_vibrator,supports_effects,true)
+
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.mediatek
 
