@@ -54,7 +54,6 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_MKBOOTIMG_ARGS += --board ""
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_spaced
 TARGET_RECOVERY_DEVICE_MODULES := libinit_spaced
 
 # Kernel
