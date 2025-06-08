@@ -291,6 +291,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlaySpaced \
     SettingsOverlaySpaced \
     SystemUIOverlaySpaced \
+    IMSOverlaySpaced \
     TelephonyOverlaySpaced \
     WifiResOverlaySpaced \
     TetheringResOverlaySpaced \
@@ -392,12 +393,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.4.vendor \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio@1.6.vendor
-
-# RCS 
-PRODUCT_PACKAGES += \
-    com.android.ims.rcsmanager \
-    RcsService \
-    PresencePolling
 
 # Rootdir
 PRODUCT_PACKAGES += \
